@@ -154,7 +154,6 @@ existing values.
 - Spaces are not allowed inside the index expression. For example, use `1,3-5`, not `1, 3 - 5`.
 - Duplicate and overlapping indexes select each person only once.
 - All indexes are validated before any person is edited. If any index is invalid, nobody is edited.
-- The current filter stays active after an edit, including a bulk edit. Edited persons disappear from the displayed
   list if they no longer match the filter. Use `list` to show everyone again.
 
 #### Fields available
